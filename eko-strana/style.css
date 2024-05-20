@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: MYFONT;
+    src: url("./font/Market_Deco.ttf");
+}
+body{
+    font-family: "MYFONT";
+}
+.main-div{
+    background-image: url("img/planet-transformed.jpeg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+nav{
+    background-color: #8cc63e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav ul{
+    display: flex;
+    margin: 20px 0;
+}
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.content-div{
+    margin: 50px 0;
+}
+.content-div h2,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding: 10px 0;
+    margin: auto;
+}
+.content-div img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 20px 0;
+    margin: auto;
+}
+.content-div #slika1{
+    background-image: url("img/planeta.jpg");
+    min-height: 400px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-div #slika2{
+    background-image: url("img/planetonhands.jpg");
+    min-height: 400px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-div ul{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+.content-div #slika3{
+    background-image: url("img/1000020790.jpg");
+    min-height: 400px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-div #slika4{
+    background-image: url("img/planttree.webp");
+    min-height: 550px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8cc63e;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    margin: 20px 0;
+}
+input{
+    width: 200px;
+    height: 30px;
+    background-color: #8cc63e;
+    color: black;
+}
+#ideja{
+    width: 200px;
+    height: 100px;
+}
+#submit{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    color: #8cc63e;
+}
+::placeholder{
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+@media(max-width: 450px){
+    .content-div #slika1{
+        background-image: url("img/planeta.jpg");
+        max-height: 100px;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
